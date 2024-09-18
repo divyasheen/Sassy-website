@@ -1,0 +1,21 @@
+.preview {
+    margin-bottom: 4rem;
+
+    .box1,
+    .box2,
+    .box3 {
+      @extend %styleBox;
+    }
+
+    .box1_img {
+      @include styleBoxImg(url(../images/mountain.jpg));
+    }
+
+    .box2_img {
+      @include styleBoxImg(url(../images/surfer.jpg));
+    }
+
+    .box3_img {
+      @include styleBoxImg(url(../images/tree.jpg));
+    }
+  }

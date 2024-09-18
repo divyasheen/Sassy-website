@@ -1,0 +1,33 @@
+@media screen and (min-width: 1200px) {
+    header {
+      ul {
+        justify-content: flex-end;
+        gap: $genericPadding;
+      }
+    }
+  
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat (3, 1fr);
+      grid-template-rows: 1fr 250px;
+      grid-template-areas:
+        "preview preview preview"
+        "article article aside";
+  
+      .preview {
+        grid-area: preview;
+  
+        display: flex;
+        gap: $genericPadding;
+      }
+  
+      .article {
+        grid-area: article;
+      }
+  
+      aside {
+        grid-area: aside;
+      }
+    }
+  }
+  

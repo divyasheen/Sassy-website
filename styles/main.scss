@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ----- Import Partials ----- */
+  
+  @import "variables";
+  @import "header";
+  @import "preview";
+  @import "article";
+  @import "aside";
+  @import "mediaQuieries";
+  
+  /* ----- Minor Styles ----- */
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 2rem auto;
+  }

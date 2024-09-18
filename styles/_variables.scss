@@ -1,0 +1,28 @@
+$primaryColor: #cfb65a;
+$secundaryColor: #faecb9;
+$genericPadding: 1rem;
+$genericBorder: 1px solid $primaryColor;
+
+%styleBox {
+  border: $genericBorder;
+  border-radius: 5px;
+  background: $secundaryColor;
+  margin-bottom: $genericPadding;
+
+  h3 {
+    padding: $genericPadding;
+  }
+
+  p {
+    padding: 0 $genericPadding;
+    padding-bottom: $genericPadding;
+  }
+}
+
+@mixin styleBoxImg($url) {
+  background-image: $url;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+}

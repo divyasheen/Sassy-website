@@ -1,0 +1,20 @@
+header {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style-type: none;
+      padding: 1rem;
+  
+      a {
+        text-decoration: none;
+      }
+    }
+  
+    .hero {
+      background-image: url(../images/header.jpg);
+      background-size: cover;
+      height: 200px;
+      text-align: center;
+      padding: 70px;
+    }
+  }
