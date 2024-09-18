@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* ----- Import Partials ----- */
 .preview .box1,
 .preview .box2,
 .preview .box3 {
@@ -34,7 +33,7 @@ header ul {
 header ul a {
   text-decoration: none;
 }
-header .hero {
+header .personal {
   background-image: url(../images/header.jpg);
   background-size: cover;
   height: 200px;
@@ -99,7 +98,6 @@ aside {
     grid-area: aside;
   }
 }
-/* ----- Minor Styles ----- */
 body {
   font-family: sans-serif;
 }
